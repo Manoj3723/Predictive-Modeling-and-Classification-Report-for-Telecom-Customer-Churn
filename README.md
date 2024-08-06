@@ -31,10 +31,10 @@ The model's performance is evaluated using several metrics:
 **Accuracy:** 75.35% <br>
 **Confusion Matrix:**
 <ul>
-  <li><b>True Negatives (TN):</b> 1112</li>
-  <li><b>False Positives (FP):</b> 186</li>
-  <li><b>False Negatives (FN):</b> 251</li>
-  <li><b>True Positives (TP):</b> 212</li>
+  <li><b>True Negatives (TN):</b> 1112 (The number of non-churn customers correctly identified as non-churn)</li>
+  <li><b>False Positives (FP):</b> 186 (The number of non-churn customers incorrectly identified as churn)</li>
+  <li><b>False Negatives (FN):</b> 251 (The number of churn customers incorrectly identified as non-churn)</li>
+  <li><b>True Positives (TP):</b> 212 (The number of churn customers correctly identified as churn)</li>
 </ul>
 
 **Classification Report:**
